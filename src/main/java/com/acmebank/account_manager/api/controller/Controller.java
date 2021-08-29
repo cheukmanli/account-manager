@@ -17,7 +17,7 @@ public class Controller {
     @Autowired
     AccountService accountService;
 
-    @GetMapping(value="/v1/account/{accountNum}")
+    @GetMapping(value="/v1/account/{accountNum}/balance")
     public @ResponseBody
     String getBalance(@PathVariable(value="accountNum") int accountNum) throws AccountNotFoundException {
         return accountService.getAccount(accountNum).getBalance().toEngineeringString();

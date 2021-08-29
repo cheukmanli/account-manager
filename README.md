@@ -13,8 +13,8 @@
 
 1. Check balance of an account
 
-```java
-/v1/account/{accountNum}
+```
+/v1/account/{accountNum}/balance
 ```
 
 2. Transfer balance from one account to another
