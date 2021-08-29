@@ -1,4 +1,4 @@
-package com.acmebank.account_manager.entity;
+package com.acmebank.accountmanager.entity;
 
 import lombok.Getter;
 import lombok.Setter;

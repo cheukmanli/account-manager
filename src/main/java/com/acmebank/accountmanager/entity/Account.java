@@ -1,6 +1,5 @@
-package com.acmebank.account_manager.entity;
+package com.acmebank.accountmanager.entity;
 
-import jdk.nashorn.internal.objects.annotations.Constructor;
 import lombok.Getter;
 import lombok.Setter;
 

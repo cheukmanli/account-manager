@@ -1,10 +1,10 @@
-package com.acmebank.account_manager;
+package com.acmebank.accountmanager;
 
-import com.acmebank.account_manager.entity.Account;
-import com.acmebank.account_manager.exception.AccountNotFoundException;
-import com.acmebank.account_manager.exception.InsufficientFundsException;
-import com.acmebank.account_manager.repository.AccountRepository;
-import com.acmebank.account_manager.service.AccountService;
+import com.acmebank.accountmanager.entity.Account;
+import com.acmebank.accountmanager.exception.AccountNotFoundException;
+import com.acmebank.accountmanager.exception.InsufficientFundsException;
+import com.acmebank.accountmanager.repository.AccountRepository;
+import com.acmebank.accountmanager.service.AccountService;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

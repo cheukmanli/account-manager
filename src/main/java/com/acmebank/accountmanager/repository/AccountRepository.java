@@ -1,6 +1,6 @@
-package com.acmebank.account_manager.repository;
+package com.acmebank.accountmanager.repository;
 
-import com.acmebank.account_manager.entity.Account;
+import com.acmebank.accountmanager.entity.Account;
 import org.springframework.data.jpa.repository.Lock;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

@@ -1,8 +1,8 @@
-package com.acmebank.account_manager.api.controller;
+package com.acmebank.accountmanager.api.controller;
 
-import com.acmebank.account_manager.exception.AccountNotFoundException;
-import com.acmebank.account_manager.exception.IllegalTransferAmountException;
-import com.acmebank.account_manager.exception.InsufficientFundsException;
+import com.acmebank.accountmanager.exception.AccountNotFoundException;
+import com.acmebank.accountmanager.exception.IllegalTransferAmountException;
+import com.acmebank.accountmanager.exception.InsufficientFundsException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.MethodArgumentNotValidException;

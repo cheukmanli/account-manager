@@ -1,9 +1,9 @@
-package com.acmebank.account_manager.service;
+package com.acmebank.accountmanager.service;
 
-import com.acmebank.account_manager.entity.Account;
-import com.acmebank.account_manager.exception.AccountNotFoundException;
-import com.acmebank.account_manager.exception.InsufficientFundsException;
-import com.acmebank.account_manager.repository.AccountRepository;
+import com.acmebank.accountmanager.entity.Account;
+import com.acmebank.accountmanager.exception.AccountNotFoundException;
+import com.acmebank.accountmanager.exception.InsufficientFundsException;
+import com.acmebank.accountmanager.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
